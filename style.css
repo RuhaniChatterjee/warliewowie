@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding:10px;
+  font-family:tahoma;
+  background-color: rgb(60,0,0);
+  color: white;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+}
+
+.nav li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ffffff;
+  color: #000000
+}
+canvas {
+  display: block;
+}
